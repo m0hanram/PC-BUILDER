@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Builder</title>
+    <style>
+        .container{
+            position: relative;
+            text-align: center;
+        }
+        .op{
+            opacity:0.9;
+        }
+        img{
+            border:5px solid rgb(0, 0, 0);
+            border-radius: 15px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        .bord{
+            border: 5px solid rgb(0, 0, 0);
+            border-radius: 25px;
+            background-color: white;
+        }
+        button{
+            padding: 5px 100px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            transition-duration: 0.4s;
+            font-weight: bold;
+        }
+        button:hover{
+            background-color: #008CBA;
+            color: white;
+        }  
+        .build
+        {
+            margin: auto;
+            display: block;
+        }
+        a{
+            text-decoration: none;
+        } 
+    </style>
+</head>
+<body bgcolor="#f2f2f2">
+    <div class="container-fluid bord" style="text-align:center;">
+        <h1><font face="verdana" style="color: rgb(34, 20, 155);">PC Builder</font></h1>
+    </div>
+    <br>
+    <br>
+    <div >
+        <a href="build.php"><button class="build">BUILD YOUR OWN PC</button></a>
+    </div>
+    <div class="container" style="width: 400px; float:left; height:300px; margin:50px">
+        <img class="op" src="cpu.jpg" alt="CPU" width="400px" height="300px">
+        <a href="CPU.php"><button><div><font face="verdana" style="color: rgb(34, 20, 155);">CPUs</font></div></button></a>
+    </div>
+    <div class="container" style="width: 400px; float:left; height:300px; margin:50px">
+        <img class="op" src="gpu.jpg" alt="GPU" width="400px" height="300px">
+        <a href="GPU.html"><button><div><font face="verdana" style="color: rgb(34, 20, 155);">GPUs</font></div></button></a>
+    </div>
+    <div class="container" style="width: 400px; float:left; height:300px; margin:50px">
+        <img class="op" src="mb.jpg" alt="MotherBoard" width="400px" height="300px">
+        <a href="Motherboard.html"><button><div><font face="verdana" style="color: rgb(34, 20, 155);">MotherBoards</font></div></button></a>
+    </div>
+    <div class="container" style="width: 400px; float:left; height:300px; margin:50px">
+        <img class="op" src="ram.jpg" alt="RAM" width="400px" height="300px">
+        <a href="RAM.html"><button><div><font face="verdana" style="color: rgb(34, 20, 155);">RAMs</font></div></button></a>
+    </div>
+    <div class="container" style="width: 400px; float:left; height:300px; margin:50px">
+        <img class="op" src="ssd.jpg" alt="SSD" width="400px" height="300px">
+        <a href="SSD.html"><button><div><font face="verdana" style="color: rgb(34, 20, 155);">SSDs</font></div></button></a>
+    </div>
+    <div class="container" style="width: 400px; float:left; height:300px; margin:50px">
+        <img class="op" src="cases.jpg" alt="PCCase" width="400px" height="300px">
+        <a href="CASES.html"><button><div><font face="verdana" style="color: rgb(34, 20, 155);">PC Cases</font></div></button></a>
+    </div>
+    <div class="container" style="width: 400px; float:left; height:300px; margin:50px">
+        <img class="op" src="psu.jpg" alt="PSU" width="400px" height="300px">
+        <a href="PSU.html"><button><div><font face="verdana" style="color: rgb(34, 20, 155);">PSU</font></div></button></a>
+    </div>
+</body>
+</html>
